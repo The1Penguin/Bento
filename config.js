@@ -11,9 +11,9 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
-  imageBackground: false,
-  openInNewTab: true,
+  name: 'Nor',
+  imageBackground: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
@@ -40,39 +40,51 @@ const CONFIG = {
   cards: [
     {
       id: '1',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://www.youtube.com/feed/subscriptions',
+    },
+    {
+      id: '2',
+      name: 'Reddit',
+      icon: 'glasses',
+      link: 'https://old.reddit.com/',
+    },
+    {
+      id: '3',
+      name: 'Netflix',
+      icon: 'film',
+      link: 'https://www.netflix.com/browse',
+    },
+    {
+      id: '4',
+      name: 'Canvas',
+      icon: 'book',
+      link: 'https://chalmers.instructure.com/',
+    },
+    {
+      id: '5',
+      name: 'Schedule',
+      icon: 'calendar',
+      link: 'https://cloud.timeedit.net/chalmers/web/public/ri1Y73yQZ05ZZ6Q1Xf5vfo085Q4Qx45fYgZ86YQ.html#',
+    },
+    {
+      id: '6',
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
     },
     {
-      id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      id: '7',
+      name: 'A corner of the web',
+      icon: 'rss',
+      link: 'https://acorneroftheweb.com/',
     },
     {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
-    },
-    {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
-    },
-    {
-      id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      id: '8',
+      name: 'Nextcloud',
+      icon: 'cloud',
+      link: 'https://nc.acorneroftheweb.com',
     },
   ],
 
@@ -81,45 +93,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'coffee',
+  secondListIcon: 'tv-2',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
+        name: 'Mafia universe',
+        link: 'https://www.mafiauniverse.com/forums/',
+      },
+      {
+        name: 'D&D',
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Teamcraft',
+        link: 'https://ffxivteamcraft.com/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Unixporn',
+        link: 'https://old.reddit.com/r/unixporn/',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Hacker News',
+        link: 'https://news.ycombinator.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Twitter',
+        link: 'https://twitter.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Twitch',
+        link: 'https://twitch.tv',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'HBO',
+        link: 'https://www.hbomax.com',
       },
     ],
   },
