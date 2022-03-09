@@ -1,16 +1,12 @@
 // ┬ ┬┌─┐┌─┐┌┬┐┬ ┬┌─┐┬─┐
 // │││├┤ ├─┤ │ ├─┤├┤ ├┬┘
 // └┴┘└─┘┴ ┴ ┴ ┴ ┴└─┘┴└─
+// Functions to setup Weather windget.
 
 const iconElement = document.querySelector('.weatherIcon');
-const tempElement = document.querySelector(
-  '.weatherValue p'
-);
-const descElement = document.querySelector(
-  '.weatherDescription p'
-);
+const tempElement = document.querySelector('.weatherValue p');
+const descElement = document.querySelector('.weatherDescription p');
 
-// App data
 const weather = {};
 weather.temperature = {
   unit: 'celsius',
@@ -19,10 +15,7 @@ weather.temperature = {
 var tempUnit = CONFIG.weatherUnit;
 
 const KELVIN = 273.15;
-// Use your own key for the Weather, Get it here: https://openweathermap.org/
 const key = `${CONFIG.weatherKey}`;
-
-// Set Position function
 setPosition();
 
 function setPosition(position) {
@@ -47,12 +40,8 @@ function setPosition(position) {
   );
 }
 
-// Get the Weather data
 function getWeather(latitude, longitude) {
   let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
-
-  console.log(api);
-
   fetch(api)
     .then(function (response) {
       let data = response.json();
@@ -70,9 +59,10 @@ function getWeather(latitude, longitude) {
     });
 }
 
-// Display Weather info
 function displayWeather() {
   iconElement.innerHTML = `<img src="assets/icons/${CONFIG.weatherIcons}/${weather.iconId}.png"/>`;
-  tempElement.innerHTML = `${weather.temperature.value}°<span class="darkfg">${tempUnit}</span>`;
+  tempElement.innerHTML = `${weather.temperature.value.toFixed(
+    0
+  )}°<span class="darkfg">${tempUnit}</span>`;
   descElement.innerHTML = weather.description;
 }
