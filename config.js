@@ -110,33 +110,45 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'twitter',
-      icon: 'twitter',
-      link: 'https://twitter.com/',
+      name: 'Reddit',
+      icon: 'glasses',
+      link: 'https://old.reddit.com/',
     },
     {
       id: '3',
-      name: 'bot',
-      icon: 'bot',
-      link: 'https://discord.com/app',
+      name: 'Netflix',
+      icon: 'film',
+      link: 'https://www.netflix.com/browse',
     },
     {
       id: '4',
-      name: 'Amazon',
-      icon: 'shopping-bag',
-      link: 'https://amazon.com/',
+      name: 'Canvas',
+      icon: 'book',
+      link: 'https://chalmers.instructure.com/',
     },
     {
       id: '5',
-      name: 'Hashnode',
-      icon: 'pen-tool',
-      link: 'https://hashnode.com/',
+      name: 'Schedule',
+      icon: 'calendar',
+      link: 'https://cloud.timeedit.net/chalmers/web/public/ri1Y73yQZ05ZZ6Q1Xf5vfo085Q4Qx45fYgZ86YQ.html#',
     },
     {
       id: '6',
-      name: 'Figma',
-      icon: 'figma',
-      link: 'https://figma.com/',
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com/',
+    },
+    {
+      id: '7',
+      name: 'A corner of the web',
+      icon: 'rss',
+      link: 'https://acorneroftheweb.com/',
+    },
+    {
+      id: '8',
+      name: 'Nextcloud',
+      icon: 'cloud',
+      link: 'https://nc.acorneroftheweb.com',
     },
   ],
 
@@ -144,7 +156,6 @@ const CONFIG = {
   // │  │└─┐ │ └─┐
   // ┴─┘┴└─┘ ┴ └─┘
 
-<<<<<<< HEAD
   // First Links Container
   firstlistsContainer: [
     {
@@ -240,7 +251,6 @@ const CONFIG = {
       ],
     },
   ],
-=======
   //Icons
   firstListIcon: 'coffee',
   secondListIcon: 'tv-2',
@@ -284,5 +294,4 @@ const CONFIG = {
       },
     ],
   },
->>>>>>> 947b8cb (Made it fit me)
 };
