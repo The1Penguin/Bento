@@ -159,47 +159,47 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'coffee',
       id: '1',
       links: [
-        {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
+          {
+            name: 'Mafia universe',
+            link: 'https://www.mafiauniverse.com/forums/',
+          },
+          {
+            name: 'D&D',
+            link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          },
+          {
+            name: 'Teamcraft',
+            link: 'https://ffxivteamcraft.com/',
+          },
+          {
+            name: 'Unixporn',
+            link: 'https://old.reddit.com/r/unixporn/',
+          },
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'tv-2',
       id: '2',
       links: [
-        {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
-        },
-        {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
-        },
-        {
-          name: 'Trello',
-          link: 'https://www.trello.com',
-        },
-        {
-          name: 'Slack',
-          link: 'https://www.slack.com',
-        },
+          {
+            name: 'Hacker News',
+            link: 'https://news.ycombinator.com/',
+          },
+          {
+            name: 'Twitter',
+            link: 'https://twitter.com/',
+          },
+          {
+            name: 'Twitch',
+            link: 'https://twitch.tv',
+          },
+          {
+            name: 'HBO',
+            link: 'https://www.hbomax.com',
+          },
       ],
     },
   ],
@@ -251,47 +251,4 @@ const CONFIG = {
       ],
     },
   ],
-  //Icons
-  firstListIcon: 'coffee',
-  secondListIcon: 'tv-2',
-
-  // Links
-  lists: {
-    firstList: [
-      {
-        name: 'Mafia universe',
-        link: 'https://www.mafiauniverse.com/forums/',
-      },
-      {
-        name: 'D&D',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Teamcraft',
-        link: 'https://ffxivteamcraft.com/',
-      },
-      {
-        name: 'Unixporn',
-        link: 'https://old.reddit.com/r/unixporn/',
-      },
-    ],
-    secondList: [
-      {
-        name: 'Hacker News',
-        link: 'https://news.ycombinator.com/',
-      },
-      {
-        name: 'Twitter',
-        link: 'https://twitter.com/',
-      },
-      {
-        name: 'Twitch',
-        link: 'https://twitch.tv',
-      },
-      {
-        name: 'HBO',
-        link: 'https://www.hbomax.com',
-      },
-    ],
-  },
 };
