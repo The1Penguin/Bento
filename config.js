@@ -17,10 +17,10 @@ const CONFIG = {
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'Good morning',
+  greetingAfternoon: 'Good afternoon',
+  greetingEvening: 'Good evening',
+  greetingNight: 'Go to sleep',
 
   // Layout
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -59,39 +59,39 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://old.reddit.com/',
-    },
-    {
-      id: '3',
       name: 'Netflix',
       icon: 'film',
       link: 'https://www.netflix.com/browse',
     },
     {
+      id: '3',
+      name: 'Ladok',
+      icon: 'glasses',
+      link: 'https://www.student.ladok.se/student/app/studentwebb/',
+    },
+    {
       id: '4',
-      name: 'Canvas',
-      icon: 'book',
-      link: 'https://chalmers.instructure.com/',
-    },
-    {
-      id: '5',
-      name: 'Schedule',
-      icon: 'calendar',
-      link: 'https://cloud.timeedit.net/chalmers/web/public/ri1Y73yQZ05ZZ6Q1Xf5vfo085Q4Qx45fYgZ86YQ.html#',
-    },
-    {
-      id: '6',
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
     },
     {
-      id: '7',
+      id: '5',
+      name: 'Canvas',
+      icon: 'book',
+      link: 'https://chalmers.instructure.com/',
+    },
+    {
+      id: '6',
       name: 'A corner of the web',
       icon: 'rss',
       link: 'https://acorneroftheweb.com/',
+    },
+    {
+      id: '7',
+      name: 'Schedule',
+      icon: 'calendar',
+      link: 'https://cloud.timeedit.net/chalmers/web/public/ri1Yg486X55Z0xQ5X86643Q15Z0563ZYQ6X6536Q6971yY00Y050v6YwZofQc.html',
     },
     {
       id: '8',
@@ -167,16 +167,16 @@ const CONFIG = {
             link: 'https://www.mafiauniverse.com/forums/',
           },
           {
-            name: 'D&D',
-            link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Reddit',
+            link: 'https://old.reddit.com/',
+          },
+          {
+            name: 'Tumblr',
+            link: 'https://www.tumblr.com',
           },
           {
             name: 'Teamcraft',
             link: 'https://ffxivteamcraft.com/',
-          },
-          {
-            name: 'Unixporn',
-            link: 'https://old.reddit.com/r/unixporn/',
           },
       ],
     },
@@ -197,8 +197,8 @@ const CONFIG = {
             link: 'https://twitch.tv',
           },
           {
-            name: 'HBO',
-            link: 'https://www.hbomax.com',
+            name: 'Lounge',
+            link: 'https://lounge.acorneroftheweb.com',
           },
       ],
     },
