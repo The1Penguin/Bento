@@ -136,16 +136,9 @@ body {
   justify-content: center;
 }
 
-.weatherBlock {
+.date {
   grid-column: 3 / span 2;
   grid-row: 1 / span 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.date {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,7 +341,7 @@ body {
     grid-column: 1 / span 4;
   }
 
-  .weatherBlock {
+  .date {
     display: none;
   }
 
@@ -366,7 +359,7 @@ body {
 
   .button {
     grid-gap: 3vw;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left:  20px;
+    padding-right: 20px;
   }
 }
