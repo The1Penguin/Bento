@@ -167,16 +167,16 @@ const CONFIG = {
             link: 'https://www.mafiauniverse.com/forums/',
           },
           {
-            name: 'Reddit',
-            link: 'https://old.reddit.com/',
+            name: 'Lounge',
+            link: 'https://lounge.acorneroftheweb.com',
           },
           {
-            name: 'Tumblr',
-            link: 'https://www.tumblr.com',
+            name: 'Dl',
+            link: 'https://dl.acorneroftheweb.com',
           },
           {
-            name: 'Teamcraft',
-            link: 'https://ffxivteamcraft.com/',
+            name: 'Dav',
+            link: 'https://dav.acorneroftheweb.com',
           },
       ],
     },
@@ -189,16 +189,16 @@ const CONFIG = {
             link: 'https://news.ycombinator.com/',
           },
           {
-            name: 'Twitter',
-            link: 'https://twitter.com/',
-          },
-          {
             name: 'Twitch',
             link: 'https://twitch.tv',
           },
           {
-            name: 'Lounge',
-            link: 'https://lounge.acorneroftheweb.com',
+            name: 'Reddit',
+            link: 'https://old.reddit.com/',
+          },
+          {
+            name: 'Tumblr',
+            link: 'https://www.tumblr.com',
           },
       ],
     },
