@@ -171,8 +171,8 @@ const CONFIG = {
             link: 'https://lounge.acorneroftheweb.com',
           },
           {
-            name: 'Dl',
-            link: 'https://dl.acorneroftheweb.com',
+            name: 'Hacker News',
+            link: 'https://news.ycombinator.com/',
           },
           {
             name: 'Dav',
@@ -185,8 +185,8 @@ const CONFIG = {
       id: '2',
       links: [
           {
-            name: 'Hacker News',
-            link: 'https://news.ycombinator.com/',
+            name: 'Jellyfin',
+            link: 'https://jelly.acorneroftheweb.com',
           },
           {
             name: 'Twitch',
