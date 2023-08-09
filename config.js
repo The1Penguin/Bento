@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'A corner of the web',
+      name: 'Miniflux',
       icon: 'rss',
-      link: 'https://acorneroftheweb.com/',
+      link: 'https://rss.acorneroftheweb.com/',
     },
     {
       id: '7',
@@ -140,9 +140,9 @@ const CONFIG = {
     },
     {
       id: '7',
-      name: 'A corner of the web',
+      name: 'Miniflux',
       icon: 'rss',
-      link: 'https://acorneroftheweb.com/',
+      link: 'https://rss.acorneroftheweb.com/',
     },
     {
       id: '8',
