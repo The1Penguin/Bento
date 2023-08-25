@@ -91,7 +91,7 @@ const CONFIG = {
       id: '7',
       name: 'Schedule',
       icon: 'calendar',
-      link: 'https://cloud.timeedit.net/chalmers/web/public/ri1Yg486X55Z0xQ5X86643Q15Z0563ZYQ6X6536Q6971yY00Y050v6YwZofQc.html',
+      link: 'https://cloud.timeedit.net/chalmers/web/public/ri1Y74yQZ05ZZ4Q1XQ5vwQ015Q4Yx459Yg986.html',
     },
     {
       id: '8',
