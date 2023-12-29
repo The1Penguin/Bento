@@ -59,9 +59,9 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'Netflix',
+      name: 'Jellyfin',
       icon: 'film',
-      link: 'https://www.netflix.com/browse',
+      link: 'https://jelly.acorneroftheweb.com',
     },
     {
       id: '3',
@@ -171,8 +171,8 @@ const CONFIG = {
             link: 'https://lounge.acorneroftheweb.com',
           },
           {
-            name: 'Hacker News',
-            link: 'https://news.ycombinator.com/',
+            name: 'Download',
+            link: 'https://dwn.acorneroftheweb.com/',
           },
           {
             name: 'Dav',
@@ -185,20 +185,20 @@ const CONFIG = {
       id: '2',
       links: [
           {
-            name: 'Jellyfin',
-            link: 'https://jelly.acorneroftheweb.com',
-          },
-          {
             name: 'Twitch',
             link: 'https://twitch.tv',
           },
           {
-            name: 'Reddit',
-            link: 'https://old.reddit.com/',
-          },
-          {
             name: 'Tumblr',
             link: 'https://www.tumblr.com',
+          },
+          {
+            name: 'Sonarr',
+            link: 'https://sonarr.acorneroftheweb.com',
+          },
+          {
+            name: 'Radarr',
+            link: 'https://radarr.acorneroftheweb.com/',
           },
       ],
     },
