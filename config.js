@@ -172,7 +172,7 @@ const CONFIG = {
           },
           {
             name: 'Download',
-            link: 'https://dwn.acorneroftheweb.com/',
+            link: 'https://dwn.acorneroftheweb.com/#/login?redirect=/',
           },
           {
             name: 'Dav',
